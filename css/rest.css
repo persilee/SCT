@@ -1,0 +1,245 @@
+/*2017/6/13重置样式*/
+html, body, div, span, applet, object, iframe, h1, h2, h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+}
+:focus {
+    outline: 0;
+}
+a{
+    cursor: pointer;
+    color: #f2fdff;
+}
+
+a, a:link, a:visited, a:hover, a:active{
+    text-decoration:none;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+th, td {
+    font-weight: normal;
+}
+img, iframe {
+    border: none;
+    text-decoration:none;
+}
+ol, ul {
+    list-style: none;
+}
+input, textarea, select, button {
+    font-size: 100%;
+    font-family: inherit;
+    background: none;
+    outline: none;
+    border:none;
+}
+select {
+    margin: inherit;
+}
+.clearfix {
+    display: block;
+    zoom: 1;
+    clear: both;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*input::-webkit-input-placeholder {*/
+/*color: #13a5d3;*/
+/*}*/
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-size:0.18rem; 
+    font-family: Microsoft YaHei, 微软雅黑, Tahoma, Arial, sans-serif  !important;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/* 去除iPhone中默认的input样式 */
+input[type="submit"], input[type="reset"], input[type="button"], input {
+    /*-webkit-appearance: none;*/
+    resize: none;
+}
+input[type="radio"]{
+    display: none;
+}
+input{
+    color: #f2fdff;
+}
+input::-webkit-input-placeholder{
+    color:  #dedede;
+}
+/* 设置HTML5元素为块 */
+article, aside, details, figcaption, figure, footer, header, menu, nav,section {
+    display: block;
+}
+/* 图片自适应 */
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    -ms-interpolation-mode: bicubic;
+    /*为了照顾ie图片缩放失真*/
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+#allmap{
+    width: 100%;
+    height: 100%;
+}
+/* 公共 */
+.crumbs {
+  display: inline-block;
+  background: url(../content/images/bg-crumbs.png) no-repeat;
+  background-size: 2.8rem 0.4rem;
+  width: 20%;
+  padding-left: 0.22rem;
+  height: 4.9%;
+  position: relative;
+  font-size: 0.18rem;
+  line-height: 0.4rem;
+}
+.crumbs a{
+    color: #fff;
+}
+.btn-primary{
+  cursor: pointer;
+  text-align: center;
+  background-color: #009cff;
+  font-size: 0.18rem;
+  color: #fff;
+  width: 28%;
+  line-height: 0.4rem;
+  margin-left: 3%;
+}
+.primary-input{
+  font-size: 0.18rem;
+  height: 0.38rem;
+  width: 66.7%;
+  line-height: 0.38rem;
+  background: #042061;
+  box-shadow: 0 0 15px #3f98fc inset;
+  border: 1px solid #3f98fc;
+  text-indent: 10px;
+}
+.primary-data {
+    background: url(../content/images/top-seach-data.png) no-repeat;
+    background-size: 100% 100%;
+    width: 2.2rem;
+    height: 0.4rem;
+    font-size: 0.18rem;
+    text-indent: 10px;
+    line-height: 0.4rem;
+}
+.primary-select{
+    width: 1.7rem;
+    height: 0.4rem;
+    background: #042061;
+    box-shadow: 0 0 15px #3f98fc inset;
+    border: 1px solid #3f98fc;
+    text-indent: 5px;
+    color: #fff;
+}
+.fontblue{
+  color: #6eaef1;
+}
+.f20{
+  font-size: 0.2rem;
+}
+.f18{
+    font-size: 0.18rem;
+  }
+.f16{
+  font-size: 0.16rem;
+}
+.body-bg{
+  background: url("/images/bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+/* 滚动条 */
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+  width:6px;
+  height: 6px;
+}
+/*定义滚动条轨道*/
+::-webkit-scrollbar-track
+{
+  border-radius: 10px;
+  background-color: #17272a;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color:#354346;
+  height: 50px;
+}
+/* ie滚动条 */
+.auto,.jwks-info-content .jwks-card-content,.ctrl-container .ctrl-left,.ctrl-map-container .ctrl-left,
+.ctrl-map-container .ctrl-left .table-container,.index-pop-bg-rlsb .sssp-left .snapshot-list,
+.index-pop-bg-rlsb .sssp-right .access-control-cont,.index-pop-bg-rlsb .rljs-right .access-control-cont,
+.index-pop-bg-rlsb .rljs-left .snapshot-list,.syrk-right-contet,.index-pop-bg-syfw .syfw-right .building-list .room-list,
+.index-pop-bg-sycl .sycl-right-contet,.layui-table-body,
+.index-pop-bg-sycl .sycl-right-contet,.ypfx-left .per-alarm,.ypfx-left,
+.index-pop-bg-yjzl .yjzl-right .layui-tab .layui-tab-content .layui-tab-item .table-container,
+.index-pop-bg-mjgl .mjgl-content,.index-pop-bg-clcr .clcr-right .table-container,
+.rlbj-left-container .re-personnel-library,.ctrl-container .ctrl-right,.thumbnails-container .table-container,
+.index-pop-bg-cldz .cldz-right .cldz-content,.rqfx-left .content,.index-pop-bg-fwjzlb .fwjzlb-left,
+.index-pop-bg-clxxzs .table-container{
+  scrollbar-base-color:#072d71;
+
+  scrollbar-base-color:#072d71;
+
+  scrollbar-3dlight-color:#0a2363;
+
+  scrollbar-highlight-color: #0a2363;
+
+  scrollbar-track-color: #0a2363;
+
+  scrollbar-arrow-color: #0a2363;
+
+  scrollbar-shadow-color:#0a2363;
+
+  scrollbar-dark-shadow-color:#072d71;
+}
+.fontblue{
+    cursor: pointer;
+}
+.auto{
+    overflow: auto
+}

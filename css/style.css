@@ -1,0 +1,291 @@
+.header {
+    width: 100%;
+    height: 11%;
+}
+
+.header .nav {
+    position: absolute;
+    z-index: 5;
+    top: 0.12rem;
+    right: 0.24rem;
+}
+
+.header .nav li {
+    line-height: 0.25rem;
+    font-size: 0.16rem;
+    color: #fff;
+    float: left;
+    margin-left: 0.1rem;
+    background: #0270bd87;
+    padding: 1px 4px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.header .nav li:hover {
+    background: #0270bd;
+}
+
+.content {
+    width: 97%;
+    height: 87%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.content .content-left {
+    width: 22.7%;
+    float: left;
+    height: 100%;
+}
+
+.content .content-center {
+    width: 56.4%;
+    float: left;
+    height: 100%;
+    margin: 0 2.2%;
+    position: relative;
+}
+
+.content .content-right {
+    width: 16.4%;
+    float: left;
+    height: 100%;
+}
+
+.content .content-left .digital {
+    width: 100%;
+    height: 28%;
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+
+.content .content-left .equipment {
+    background: url(/images/index-343.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    color: #cadfef;
+    height: 66%;
+}
+
+.content .content-left .equipment .equipment-box {
+    cursor: pointer;
+    width: 90%;
+    height: 82%;
+    margin: auto;
+    padding: 5% 0;
+}
+
+.content .content-left .equipment .equipment-box ul {
+    width: 79%;
+    height: 100%;
+    padding-left: 8%;
+}
+
+.content .content-left .equipment .equipment-box ul li {
+    width: 3rem;
+    background-size: 100% 100%;
+    height: .74rem;
+    margin: 8% 0;
+    background: url(/images/more-platform-zhab.png) no-repeat;
+    background-size: cover;
+}
+
+.content .content-left .digital .digital-box {
+    cursor: pointer;
+    background: url(/images/index-130.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    color: #cadfef;
+    height: 30%;
+    margin-bottom: 2.6%;
+}
+
+.content .content-left .digital .digital-box .title {
+    margin-left: 6%;
+    display: inline-block;
+    margin-top: 3%;
+    font-size: 0.22rem;
+    font-weight: 400;
+    line-height: 0.42rem;
+}
+
+.content .content-left .digital .digital-box .value {
+    font-family: Digital-7 Mono;
+    font-size: 0.7rem;
+    background: linear-gradient(to bottom, #fffb00, #ff7200);
+    background: -webkit-gradient(to bottom, #fffb00, #ff7200);
+    background: -webkit-linear-gradient(to bottom, #fffb00, #ff7200);
+    background: -moz-linear-gradient(to bottom, #fffb00, #ff7200);
+    background: -o-linear-gradient(to bottom, #fffb00, #ff7200);
+    background: -ms-linear-gradient(to bottom, #fffb00, #ff7200);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: right;
+    font-weight: 500;
+    float: right;
+    margin-right: 8%;
+}
+
+.content .content-center .map {
+    position: relative;
+    background: url(/images/Chinamap.png) no-repeat;
+    height: 87%;
+    background-size: 100% 100%;
+    margin-top: 3%;
+}
+
+.content .content-right .four-dimensions {
+    width: 100%;
+    height: 45%;
+    position: relative;
+}
+
+.content .content-right .four-dimensions .dimensions-item {
+    margin: 3%;
+    width: 1.29rem;
+    height: 1.67rem;
+}
+
+.content .content-right .four-dimensions .dimensions-item.item1 {
+    background: url(/images/index2-fx1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.content .content-right .four-dimensions .dimensions-item.item2 {
+    background: url(/images/index2-fx2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.content .content-right .four-dimensions .dimensions-item.item3 {
+    background: url(/images/index2-fx3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.content .content-right .four-dimensions .dimensions-item.item4 {
+    background: url(/images/index2-fx4.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.content .content-right .regional {
+    width: 95%;
+    height: 51%;
+    padding-left: 5%;
+}
+
+.content .content-right .regional .regional-item {
+    position: relative;
+    width: 75%;
+    height: 11.6%;
+    margin: 7%;
+    background: url(/images/equipment-rlsb.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.content .content-right .regional .regional-item .icon {
+    width: 0.36rem;
+    position: absolute;
+    background: url(/images/icon-zd.png) no-repeat;
+    background-size: 100% 100%;
+    height: 0.36rem;
+    right: -0.37rem;
+    top: 46%;
+    animation: myfirstimg1 1s infinite;
+    transition: All 2s ease-in-out;
+    -webkit-transition: All 2s ease-in-out;
+    -moz-transition: All 2s ease-in-out;
+    -o-transition: All 2s ease-in-out;
+}
+
+@keyframes myfirstimg1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(36deg);
+    }
+
+    20% {
+        transform: rotate(72deg);
+    }
+
+    30% {
+        transform: rotate(108deg);
+    }
+
+    40% {
+        transform: rotate(144deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    60% {
+        transform: rotate(216deg);
+    }
+
+    70% {
+        transform: rotate(252deg);
+    }
+
+    80% {
+        transform: rotate(288deg);
+    }
+
+    90% {
+        transform: rotate(324deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes myfirstimg1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(36deg);
+    }
+
+    20% {
+        transform: rotate(72deg);
+    }
+
+    30% {
+        transform: rotate(108deg);
+    }
+
+    40% {
+        transform: rotate(144deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    60% {
+        transform: rotate(216deg);
+    }
+
+    70% {
+        transform: rotate(252deg);
+    }
+
+    80% {
+        transform: rotate(288deg);
+    }
+
+    90% {
+        transform: rotate(324deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
